@@ -69,10 +69,10 @@ public class GreetingController {
         };
 
         Request request = new Request.Builder()
-                .url("https://ollama.yamazing.cn/v1/chat/completions")
+                .url("https://ollama.xxxxx/v1/chat/completions")
                 .method("POST", body)
                 .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", "Bearer M3UqqyTBhMy85WwoZ_IMtz0XQsfoYLX_VJi0uZN5WMID")
+                .addHeader("Authorization", "Bearer xxxxxx")
                 .build();
 
         Response response = client.newCall(request).execute();
